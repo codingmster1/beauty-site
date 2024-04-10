@@ -206,3 +206,36 @@ nav {
     line-height: 7rem;
   }
 }
+
+
+/* Modal */
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 1100px;
+    height: 600px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.2);
+   /* visibility: hidden; */
+}
+
+.modal__half 
+{
+    width: 50%;
+}
+
+.modal__about 
+{
+    background-color: white;
+}
+
+.modal__contact 
+{
+    background-color: white;
+}
