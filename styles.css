@@ -215,27 +215,76 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
+    width: 70%;
     max-width: 1100px;
     height: 600px;
     border-radius: 20px;
     overflow: hidden;
     display: flex;
-    box-shadow: 0 20px 80px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 20px 80px 0 rgba(206, 134, 237, 0.603);
    /* visibility: hidden; */
+}
+
+.modal__title--about 
+{
+    font-size: 25px;
+}
+
+.modal__sub-title--about 
+{
+    font-size: 20px;
+    padding-bottom: 10px;
 }
 
 .modal__half 
 {
+    padding: 48px 72px;
     width: 50%;
 }
 
 .modal__about 
 {
+    display: flex;
+    flex-direction: column;
     background-color: white;
 }
 
 .modal__contact 
 {
-    background-color: white;
+    background-color: rgb(244, 156, 244);
+    color: white;
+}
+
+.modal__para 
+{
+    padding-bottom: 10px;
+}
+
+img.modal__pic {
+    border-radius: 50%;
+}
+
+.modal__pic--img
+{
+    border-radius: 30px;
+}
+
+#modal__pic 
+{
+    border-radius: 50%;
+}
+
+.modal__pic 
+{
+    padding-top: 10px;
+    border-radius: 50px;
+    flex-direction: column;
+    display: flex;
+}
+
+.pic__name 
+{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 10px;
 }
