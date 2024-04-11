@@ -68,7 +68,27 @@
                 <span class="pic__name"><b>My Husband and I <span style="color: #ff0000;">&hearts;</span></b></span>
             </div>
     </div>
-        <div class="modal__half modal__contact">blah blah </div>
+        <div class="modal__half modal__contact">
+            <h3 class="modal__title modal__title--contact">Let's have a Chat!</h3>
+            <h3 class="modal__sub-title modal__sub-title--contact">Looking forward to speaking with you!</h3>
+            <form id="contact__form" onsubmit="contact(event)">
+                <div class="form__item">
+                    <label class="form__item--label">Name</label>
+                    <input class="input" name="user_name" type="text"></input>
+                </div>
+                <div class="form__item">
+                    <label class="form__item--label">Email</label>
+                    <input class="input" name="user_email" type="email"></input>
+                </div>
+                <div class="form__item">
+                    <label class="form__item--label">Message</label>
+                    <textarea class="input" name="message" type="text"></textarea>
+                </div>
+                <button id="contact__submit" class="form__submit">
+                    Send it my way!
+                </button>
+            </form>
+        </div>
       </div>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="main.js"></script>
