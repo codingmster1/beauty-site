@@ -233,7 +233,7 @@ nav {
 .modal__sub-title--about 
 {
     font-size: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .modal__half 
@@ -283,6 +283,12 @@ img.modal__pic {
     display: flex;
 }
 
+.modal__sub-title--contact 
+{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
 .pic__name 
 {
     font-size: 20px;
@@ -316,4 +322,31 @@ img.modal__pic {
 .form__submit:hover {
     border-color: #fff;
     background-color: transparent;
+}
+
+input,
+textarea {
+    padding-top: 10px;
+    width: 100%;
+    background-color: #fff;
+    color: #000000;
+    outline: none;
+    border: 3px solid rgb(195, 107, 198);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 40px;
+    transition: all 300ms ease;
+    font-size: 20px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+    margin-top: 8px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
 }
