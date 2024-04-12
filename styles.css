@@ -296,6 +296,34 @@ img.modal__pic {
     padding-bottom: 20px;
 }
 
+.click {
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.click:hover {
+    transform: scale(1.1);
+}
+
+.click:active {
+    transform: scale(0.8);
+}
+
+.modal__exit:hover
+{
+    cursor: pointer;
+}
+
+.modal__exit {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: #ffffff;
+    font-size: 30px;
+    z-index: 100;
+}
+
+
 .pic__name 
 {
     font-size: 20px;
