@@ -225,6 +225,12 @@ nav {
    /* visibility: hidden; */
 }
 
+.modal__title--contact 
+{
+    font-weight: 100;
+    font-size: 25px;
+}
+
 .modal__title--about 
 {
     font-size: 25px;
@@ -232,7 +238,7 @@ nav {
 
 .modal__sub-title--about 
 {
-    font-size: 20px;
+    font-size: 22px;
     padding-bottom: 15px;
 }
 
@@ -285,6 +291,7 @@ img.modal__pic {
 
 .modal__sub-title--contact 
 {
+    font-weight: 100;
     padding-top: 5px;
     padding-bottom: 20px;
 }
@@ -348,5 +355,5 @@ textarea {
 
 label {
     font-size: 18px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
