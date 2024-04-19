@@ -525,15 +525,17 @@ label {
 
 
 
-
+#beauty__img-2nd 
+{
+ 
+}
 
 .beauty__img-2nd 
 {
   display: flex;
   border-radius: 20px;
   width: 100%;
-  height: 100%;
-  height: 650px;
+  width: 600px;
   justify-content: center;
   align-items: center;
 }
