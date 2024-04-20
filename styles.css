@@ -281,14 +281,14 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
+    width: 100%;
     max-width: 1100px;
-    height: 600px;
+    height: 620px;
     border-radius: 20px;
     overflow: hidden;
     display: flex;
     box-shadow: 0 20px 80px 0 rgba(206, 134, 237, 0.603);
-   visibility: hidden;
+   /* visibility: hidden; */
 }
 
 .modal__overlay {
@@ -300,6 +300,7 @@ nav {
   align-items: center;
   justify-content: center;
  display: flex;
+ visibility: hidden;
 }
 
 .modal__title--contact 
@@ -407,12 +408,14 @@ img.modal__pic {
   font-weight: 700;
   text-align: center;
   padding: 28px;
+  visibility: hidden;
 }
 
 .modal__overlay--loading {
   background-color: rgb(0, 0, 0);
  font-size: 80px;
  z-index: -1;
+ visibility: hidden;
 }
 
 .pic__name 
@@ -475,6 +478,45 @@ textarea {
 label {
     font-size: 18px;
     /* font-weight: bold; */
+}
+
+
+@media (max-width: 768px) {
+  .header__para {
+    font-size: 20px;
+}
+
+.title {
+  font-size: 80px;
+}
+
+.modal {
+    top: 0;
+    left: 0;
+    transform: none;
+    height: auto;
+    width: 100%;
+    flex-direction: column-reverse;
+    border-radius: 0;
+}
+
+.modal__half {
+    width: 100%;
+}
+}
+
+@media (max-width: 480px) {
+
+  .title {
+    font-size: 52px;
+}
+
+.header__para {
+    font-size: 18px;
+}
+  .modal__half {
+    padding: 40px;
+}
 }
 
 
