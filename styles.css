@@ -638,14 +638,19 @@ label {
   width:  90%;
   height: 100%;
   object-fit: cover;
-  margin-top: 80px;
+  margin-top: 150px;
   margin-left: 20px;
   
 }
 
 .grid__2
 {
-  margin-top: 60px;
+  margin-top: 150px;
+}
+
+.grid__3
+{
+  margin-top: 150px;
 }
 
 /* .ingredients__img 
