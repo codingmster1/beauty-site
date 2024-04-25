@@ -9,18 +9,18 @@ const scrollRevealOption = {
   });
   ScrollReveal().reveal(".grid", {
     ...scrollRevealOption,
-    origin: "top",
-    delay: 300,
+    origin: "bottom",
+    delay: 850,
   });
   ScrollReveal().reveal(".grid__2", {
     ...scrollRevealOption,
-    origin: "left",
-    delay: 500,
+    origin: "top",
+    delay: 200,
   });
   ScrollReveal().reveal(".grid__3", {
     ...scrollRevealOption,
-    origin: "right",
-    delay: 600,
+    origin: "bottom",
+    delay: 200,
   });
   ScrollReveal().reveal(".gallery", {
     ...scrollRevealOption,
@@ -29,21 +29,22 @@ const scrollRevealOption = {
   });
   ScrollReveal().reveal(".beauty__video", {
     ...scrollRevealOption,
-    origin: "left",
+    origin: "bottom",
     delay: 100,
   });
   ScrollReveal().reveal(".section__title--subtitle", {
     ...scrollRevealOption,
-    origin: "right",
+    origin: "left",
+    delay: 200,
   });
   ScrollReveal().reveal(".section__title--sub", {
     ...scrollRevealOption,
     origin: "top",
-    delay: 600,
+    delay: 800,
   });
   ScrollReveal().reveal(".third__header", {
     ...scrollRevealOption,
-    origin: "right",
+    origin: "left",
     delay: 400,
   });
   ScrollReveal().reveal(".section__container h1", {
@@ -53,7 +54,7 @@ const scrollRevealOption = {
   });
   ScrollReveal().reveal(".section__container h2", {
     ...scrollRevealOption,
-    origin: "right",
+    origin: "top",
     delay: 1000,
   });
   ScrollReveal().reveal(".section__container button", {
