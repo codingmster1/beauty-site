@@ -506,6 +506,14 @@ label {
 }
 .section__title--subtitle 
 {
+  font-size: 30px;
+}
+.section__title--sub
+{
+  font-size: 30px;
+}
+.section__title
+{
   font-size: 20px;
 }
 
