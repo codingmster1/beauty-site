@@ -20,12 +20,12 @@ const scrollRevealOption = {
   ScrollReveal().reveal(".grid__3", {
     ...scrollRevealOption,
     origin: "bottom",
-    delay: 200,
+    delay: 100,
   });
   ScrollReveal().reveal(".gallery", {
     ...scrollRevealOption,
     origin: "top",
-    delay: 300,
+    delay: 150,
   });
   ScrollReveal().reveal(".beauty__video", {
     ...scrollRevealOption,

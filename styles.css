@@ -67,6 +67,7 @@ nav {
 
 .nav__links > div li:not(:first-child) {
   display: none;
+  
 }
 
 .nav__links img {
@@ -549,6 +550,11 @@ label {
   .modal__half {
     padding: 40px;
 }
+}
+
+
+@media (max-width: 370px) {
+
 }
 
 
