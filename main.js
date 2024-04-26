@@ -25,7 +25,7 @@ const scrollRevealOption = {
   ScrollReveal().reveal(".gallery", {
     ...scrollRevealOption,
     origin: "top",
-    delay: 150,
+    delay: 700,
   });
   ScrollReveal().reveal(".beauty__video", {
     ...scrollRevealOption,
