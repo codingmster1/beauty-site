@@ -10,21 +10,21 @@ const scrollRevealOption = {
   ScrollReveal().reveal(".grid", {
     ...scrollRevealOption,
     origin: "bottom",
-    delay: 850,
+    delay: 400,
   });
   ScrollReveal().reveal(".grid__2", {
     ...scrollRevealOption,
     origin: "top",
-    delay: 200,
+    delay: 500,
   });
   ScrollReveal().reveal(".grid__3", {
     ...scrollRevealOption,
     origin: "bottom",
-    delay: 100,
+    delay: 600,
   });
   ScrollReveal().reveal(".gallery", {
     ...scrollRevealOption,
-    origin: "top",
+    origin: "left",
     delay: 700,
   });
   ScrollReveal().reveal(".beauty__video", {
