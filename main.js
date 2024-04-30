@@ -17,10 +17,20 @@ const scrollRevealOption = {
     origin: "top",
     delay: 500,
   });
-  ScrollReveal().reveal(".grid__3", {
+  ScrollReveal().reveal(".left_grid", {
+    ...scrollRevealOption,
+    origin: "left",
+    delay: 700,
+  });
+  ScrollReveal().reveal(".upper_right", {
+    ...scrollRevealOption,
+    origin: "top",
+    delay: 800,
+  });
+  ScrollReveal().reveal(".lower_right", {
     ...scrollRevealOption,
     origin: "bottom",
-    delay: 600,
+    delay: 800,
   });
   ScrollReveal().reveal(".gallery", {
     ...scrollRevealOption,
