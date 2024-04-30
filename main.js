@@ -32,9 +32,34 @@ const scrollRevealOption = {
     origin: "bottom",
     delay: 800,
   });
-  ScrollReveal().reveal(".gallery", {
+  ScrollReveal().reveal(".gallery__item--1", {
+    ...scrollRevealOption,
+    origin: "top",
+    delay: 700,
+  });
+  ScrollReveal().reveal(".gallery__item--2", {
+    ...scrollRevealOption,
+    origin: "top",
+    delay: 700,
+  });
+  ScrollReveal().reveal(".gallery__item--3", {
     ...scrollRevealOption,
     origin: "left",
+    delay: 700,
+  });
+  ScrollReveal().reveal(".gallery__item--4", {
+    ...scrollRevealOption,
+    origin: "left",
+    delay: 700,
+  });
+  ScrollReveal().reveal(".gallery__item--5", {
+    ...scrollRevealOption,
+    origin: "right",
+    delay: 700,
+  });
+  ScrollReveal().reveal(".gallery__item--6", {
+    ...scrollRevealOption,
+    origin: "right",
     delay: 700,
   });
   ScrollReveal().reveal(".beauty__video", {
