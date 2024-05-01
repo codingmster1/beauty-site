@@ -653,8 +653,16 @@ margin-top: 50px;
   
 }
 
+.only__text
+{
+  color:white;
+  -webkit-text-stroke: 2px var(--white);
+  font-weight: 300;
+}
+
 .section__title--sub
 {
+  font-size: 35px;
   color:white;
   -webkit-text-stroke: 2px var(--white);
   font-weight: 200;
@@ -827,7 +835,7 @@ footer {
   background-color: rgb(234, 138, 213);
   display: flex;
   padding: 6% 0;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .footer__container
