@@ -501,7 +501,6 @@ textarea {
 
 label {
     font-size: 18px;
-    /* font-weight: bold; */
 }
 
 
@@ -581,55 +580,6 @@ margin-top: 50px;
     padding: 40px;
 }
 }
-
-
-/* @media (max-width: 360px) {
-
-  .header__para {
-    font-size: 10px;
-}
-.section__title--subtitle 
-{
-  font-size: 20px;
-}
-.section__title--sub
-{
-  font-size: 20px;
-}
-.section__title
-{
-  font-size: 10px;
-}
-.nav__links 
-{
-  margin-right: 1px;
-}
-
-.socials 
-{
-  
- margin-left: 40px;
-}
-
-.title {
-  font-size: 80px;
-}
-
-.modal {
-    top: 0;
-    left: 0;
-    transform: none;
-    height: auto;
-    width: 100%;
-    flex-direction: column-reverse;
-    border-radius: 0;
-}
-
-
-.modal__half {
-    width: 100%;
-}
-} */
 
 
 /* About Section */
@@ -885,6 +835,8 @@ footer {
   color: black;
   text-decoration: none;
 }
+
+/* footer hover effect */
 
 .link__hover-effect {
   position: relative;
