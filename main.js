@@ -109,3 +109,12 @@ const scrollRevealOption = {
     interval: 500,
     delay: 4000,
   });
+
+
+
+/* emailjs ids */
+
+
+  // public key uaOfhrHzF6IfYqdsd
+  // template_x5y95b3
+  // service_5ue1zrs
