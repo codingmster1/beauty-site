@@ -112,9 +112,3 @@ const scrollRevealOption = {
 
 
 
-/* emailjs ids */
-
-
-  // public key uaOfhrHzF6IfYqdsd
-  // template_x5y95b3
-  // service_5ue1zrs
