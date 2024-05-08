@@ -41,5 +41,5 @@ function toggleModal() {
     }
    
     isModalOpen = true;
-    document.body.classList += " modal--open";
+    document.body.classList += "modal--open";
 }
