@@ -574,10 +574,15 @@ label {
   margin-right: 20px;
 }
 
+.scroll__bottom a 
+{
+ margin-left: 6rem;
+}
+
 .socials 
 {
-  bottom: 2rem;
-  right: 2rem;
+  bottom: 8rem;
+  right: 5rem;
 }
 
 .title {
@@ -602,6 +607,11 @@ label {
 
 @media (max-width: 480px) {
 
+  .socials 
+{
+  margin-bottom: 6rem;
+  margin-right: 2rem;
+}
   .section__title--subtitle
   {
 margin-top: 50px;
