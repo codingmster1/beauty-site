@@ -1,16 +1,10 @@
-/* emailjs ids */
 
+/* modal script */ 
 
-  // public key uaOfhrHzF6IfYqdsd
-  // template_x5y95b3
-  // service_5ue1zrs
-
-  /* let isModalOpen = false;
-  const scaleFactor = 1 / 20; */
+  
   let isModalOpen = false;
   function contact(event) {
     event.preventDefault();
-   /*  console.log('it worked') */
     const loading = document.querySelector('.modal__overlay--loading');
     const success = document.querySelector('.modal__overlay--success');
     loading.classList += " modal__overlay--visible";
