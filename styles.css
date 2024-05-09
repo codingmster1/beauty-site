@@ -596,11 +596,11 @@ label {
 
 @media (max-width: 480px) {
 
-  .socials 
+/*   .socials 
 {
   margin-bottom: 1rem;
   margin-right: 1rem;
-}
+} */
   .section__title--subtitle
   {
 margin-top: 50px;
@@ -615,11 +615,11 @@ margin-top: 50px;
   margin-right: 5px;
 }
 
-.socials 
+/* .socials 
 {
   bottom: 1rem;
   right: 1rem;
-}
+} */
 
 .header__para {
     font-size: 12px;
