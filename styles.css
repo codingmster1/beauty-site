@@ -312,7 +312,6 @@ nav {
     overflow: hidden;
     display: flex;
     z-index: -1;
-    box-shadow: 0 20px 80px 0 rgba(206, 134, 237, 0.603);
    visibility: hidden;
    transition: visibility 1s, z-index 1s, box-shadow 0.5s ease;
 } 
@@ -324,7 +323,7 @@ nav {
   visibility: visible;
 
 }
-/*  */ 
+
 .modal--open .modal__about,
 .modal--open .modal__contact
 {
@@ -342,6 +341,26 @@ nav {
  display: none;
  z-index: -1;
  /* visibility: visible; */
+}
+
+nav, 
+.scroll,
+.header,
+.section__container
+{
+  opacity: 1;
+    visibility: visible;
+    transition: all 800ms 1000ms;
+}
+
+.modal--open nav,
+.modal--open .scroll,
+.modal--open .header,
+.modal--open .section__container
+{
+    opacity: 0;
+    visibility: hidden;
+    transition: all 400ms 200ms;
 }
 
 .modal__overlay--visible {
