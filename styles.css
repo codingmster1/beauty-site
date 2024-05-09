@@ -868,7 +868,7 @@ footer {
   transition: 0.3s;
 }
 
-.footer__social--list a:hover::after
+.footer__social--list, a:hover::after
 {
   width: 100%;
 }
@@ -876,6 +876,12 @@ footer {
 .footer__copyright {
   color: black;
   text-decoration: none;
+}
+
+.footer__link 
+{
+  text-decoration: none;
+  color: black;
 }
 
 /* footer hover effect */
