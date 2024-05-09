@@ -856,6 +856,23 @@ footer {
   text-decoration: none;
 }
 
+.footer__link--hover a:after 
+{
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: var(--white);
+  transition: 0.3s;
+}
+
+.footer__link--hover a:hover::after 
+{
+  width: 100%;
+}
+
 .footer__social--list a::after
 {
   position: absolute;
@@ -884,11 +901,26 @@ footer {
   color: black;
 }
 
+.arrow__icon 
+{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer__contact 
+{
+  margin-top: 10px;
+  font-size: 15px;
+}
+
 /* footer hover effect */
 
 .link__hover-effect {
   position: relative;
 }
+
+
+
 
 .link__hover-effect:after {
   content: "";
