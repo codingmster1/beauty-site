@@ -595,7 +595,12 @@ label {
 }
 
 @media (max-width: 480px) {
-
+.footer__contact
+{
+  padding-top: 10px;
+  margin-left: 10px;
+  width: 100%;
+}
 /*   .socials 
 {
   margin-bottom: 1rem;
@@ -909,8 +914,23 @@ footer {
 
 .footer__contact 
 {
-  margin-top: 10px;
+  margin-top: 15px;
   font-size: 15px;
+}
+
+.footer__click--me
+{
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #ffffff;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.footer__click--me:hover 
+{
+  box-shadow: inset 100px 0 0 0 #8978cb;
+  color: white;
 }
 
 /* footer hover effect */
@@ -918,8 +938,6 @@ footer {
 .link__hover-effect {
   position: relative;
 }
-
-
 
 
 .link__hover-effect:after {
